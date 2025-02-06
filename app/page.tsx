@@ -1,9 +1,9 @@
-import TodoForm from "@/components/todo-forn";
+import TodoForm from "@/components/todo-form";
 import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="flex items-center justify-center my-12">
       <TodoForm />
     </div>
   );
